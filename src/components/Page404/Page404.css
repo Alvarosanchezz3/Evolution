@@ -1,0 +1,52 @@
+/* Page404.css */
+
+.page-404-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #eaedf0;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .error-code {
+    font-size: 10rem; /* Incrementa el tamaño del código de error 404 */
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: -40px; /* Añade algo de margen inferior */
+  }
+  
+  .error-message {
+    font-size: 2.5rem; /* Incrementa el tamaño del mensaje de error */
+    margin-bottom: -30px; /* Añade un poco más de espacio debajo */
+    color: #333333;
+  }
+  
+  .car-image {
+    width: 70%; /* Aumenta el tamaño de la imagen del coche */
+    max-width: 700px; /* Limita el tamaño máximo para pantallas más grandes */
+    margin: 20px 0;
+  }
+  
+  .error-subtext {
+    font-size: 1.5rem;
+    color: #333333;
+  }
+  
+  .home-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 15px 30px; /* Haz el botón un poco más grande */
+    border-radius: 5px;
+    font-size: 1.25rem; /* Incrementa el tamaño del texto del botón */
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #555;
+  }
+  

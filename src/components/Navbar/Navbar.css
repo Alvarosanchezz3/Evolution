@@ -1,0 +1,62 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: white;
+}
+
+.nav-other { /* CSS del nav fuera del home */
+    background-color: #333;
+    padding: 40px 120px;
+    margin: 0;
+} 
+
+.nav-logo {
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 90px;
+}
+
+.nav-menu li a { 
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-menu li a:hover { 
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.nav-contact {
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.nav-contact:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.nav-menu .nav-contact a {
+    display: block; /* Hace que el enlace ocupe todo el espacio del li */
+    padding: 10px 38px;
+    color: #262626;
+    border-radius: 50px;
+}
+
+.nav-menu .nav-contact a:hover { 
+    text-decoration: none;
+}
