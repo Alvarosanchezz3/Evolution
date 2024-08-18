@@ -6,9 +6,10 @@ export const Navbar = () => {
 
   // Verifica si la ruta actual es "/home"
   const isHomePage = location.pathname === '/';
+  const isContactPage = location.pathname === '/contact';
 
   return (
-    <div className={isHomePage ? 'nav' : 'nav nav-other'}>
+    <div className={isHomePage || isContactPage ? 'nav' : 'nav nav-other'}>
       <Link to="/" className="nav-logo">Ev-olution</Link>
       <ul className="nav-menu">
         <li><Link to="/">Home</Link></li>
